@@ -1,0 +1,29 @@
+.outer-form-container{
+    color: black !important;
+    display: flex;
+    text-align: center;
+    border: 10px solid rgb(106, 255, 0);
+    background-image: url('../src/img/walking.gif');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10em;
+    padding-top: em;
+    
+    
+    .label-txt {
+        color: rgb(15, 233, 19); /* Set text color for labels */
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .signin_bttn {
+        width: fit-content;
+        margin: 0 auto;
+        color: rgb(0, 0, 0); /* Set text color for the button */
+    }
+}
+
