@@ -13,17 +13,26 @@
     padding: 10em;
     padding-top: em;
     
-    
+    .form-fields{
+        display: flex;
+        flex-direction: column;
+    }
     .label-txt {
         color: rgb(15, 233, 19); /* Set text color for labels */
         font-size: large;
         font-weight: bolder;
+        margin: 10px;
+       
+    }
+    .label-txt:nth-child(3) {
+        margin-left: 2em; /* Change this margin value for email */
     }
 
     .signin_bttn {
         width: fit-content;
         margin: 0 auto;
         color: rgb(0, 0, 0); /* Set text color for the button */
+       
     }
 }
 

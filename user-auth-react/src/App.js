@@ -1,9 +1,15 @@
-import Signin from "./Login";
+import SignUp from './Signup';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-     <Signin/>
+      <BrowserRouter>
+        <Routes>
+          <Route path = '/Signup' Component={SignUp} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
